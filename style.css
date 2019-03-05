@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(0, 50, 0);
+  font-family: "Monaco", monospace;
+  color: white;
+}
+
+nav img {
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  padding: 5px;
+}
+
+html {
+  transform: scale(175%);
+}
+
+div, blog {
+  background-color: rgb(0, 25, 0);
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+
+sidebar {
+  float: right;
+  width: 450px;
+}
+
+.blu {
+  color: rgb(126, 255, 114)
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+nav {
+  font-family: "Thasadith", "Verdana", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(0, 88, 0);
+  padding: 5px;
+  border-radius: 2px;
+  border: 2px solid white;
+}
+
+nav a, nav span {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+a:visited {
+  color: rgb(0, 255, 0);
+  text-decoration: none;
+}
+
+.needs-margin {
+  margin: 10px;
+}
+
+a:link {
+  color: rgb(181, 255, 174);
+  text-decoration: none;
+}
+
+a:hover, .navbar:hover {
+  font-style: italic;
+  text-decoration: none;
+  color: rgb(0, 255, 255);
+}
+
+.blog date {
+  color: rgb(0, 255, 0);
+}
+
+.blog h2 {
+  text-decoration: underline;
+}
